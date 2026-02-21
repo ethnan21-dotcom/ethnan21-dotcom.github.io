@@ -505,18 +505,6 @@ byteOverlay.addEventListener('click', () => {
 
 
 
-// =========================================
-    // DEBUG OVERRIDE - START AT VICTORY CINEMATIC
-    // =========================================
-    
-    // 1. Hide the starting JungleDate radar screen
-    document.getElementById('radar-screen').classList.remove('active-screen');
-    
-    // 2. Start the post-game cinematic immediately
-    setTimeout(() => {
-        triggerVictorySequence();
-    }, 200);
-
 
 
 
